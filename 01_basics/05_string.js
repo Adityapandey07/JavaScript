@@ -30,4 +30,19 @@ console.log(againNewString);
 const negativeSlicing = name.slice(-4,5)
 console.log(negativeSlicing);
 
+//trim
+const trimString = "    Aditya.     "
+console.log(trimString.trim());//removes extra spaces from front and back
 
+//replace
+const url = "https://aditya%20pandey.com"//%20 means space
+console.log(url.replace("%20","_"));
+
+//include(in)
+console.log(url.includes("aditya"));//true its there in the url
+console.log(url.includes("hero"));//false its not there in the url
+
+//spilt
+const spiltVar = "Aditya-Pandey-From-Mumbai"
+console.log(spiltVar.split("-"));//split the string into array on "-" based
+// OP: [ 'Aditya', 'Pandey', 'From', 'Mumbai' ]
